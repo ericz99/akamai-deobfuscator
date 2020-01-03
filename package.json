@@ -1,0 +1,22 @@
+{
+  "name": "akamai-deobfuscator",
+  "version": "1.0.0",
+  "description": "A simple tool to help your deobfuscate akamai scripts!",
+  "scripts": {
+    "start": "node -r esm index.js"
+  },
+  "main": "index.js",
+  "repository": "https://github.com/ericz99/akamai-deobfuscator.git",
+  "author": "Eric Zhang",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/generator": "^7.7.7",
+    "@babel/parser": "^7.7.7",
+    "@babel/traverse": "^7.7.4",
+    "@babel/types": "^7.7.4",
+    "axios": "^0.19.0",
+    "esm": "^3.2.25",
+    "js-beautify": "^1.10.2",
+    "recast": "^0.18.5"
+  }
+}
